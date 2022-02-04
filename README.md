@@ -1,5 +1,3 @@
-# MongoDb-Assignment-1
-Assignment-5436
 #### For this assignment you need to create a database called assignment and collection called users that has following fields :-
 - first_name
 - last_name
@@ -38,5 +36,22 @@ Assignment-5436
     local       0.000GB
     test        0.000GB
 ```
-
+> inside the db <assignment> show collection
+- Input
+```js
+    show collections
+```
+- Output
+```js
+    // will be empty initially
+```
+> create collection named users
+- Input
+```js
+    db.createCollection('users')
+```
+- Output
+```js
+    // output will be empty initially, since no data is available
+```
 ##### Insert 10 documents in this users collection using both insert and insertMany
