@@ -205,7 +205,7 @@ db.users.insertMany([{
 ```
 - deleteMany
 ```js
-    db.users.remove({"gender": "Male"})
+    db.users.deleteMany({"gender": "Male"})
 ```
 ##### Delete db named assignment
 ```js
