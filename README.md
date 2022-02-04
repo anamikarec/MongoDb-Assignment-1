@@ -187,7 +187,7 @@ db.users.insertMany([{
 ```
 - To find the single element in the collection
 ```js
-    db.users.find({"first_name":"Anamika"})
+    db.users.findOne({"first_name":"Anamika"})
 ```
 ##### Update at least 3 documents using update and updateMany
 ~ for single one
@@ -208,4 +208,6 @@ db.users.insertMany([{
     db.users.remove({"gender": "Male"})
 ```
 ##### Delete db named assignment
-db.dropDatabase()
+```js
+    db.dropDatabase()
+```
